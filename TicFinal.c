@@ -148,6 +148,9 @@ void winning_condition() {
 	else if (c[1]=='x' && c[5]=='x' && c[9]=='x') {
 		AIgameover = true;
 	}
+	else if (c[3]=='x' && c[5]=='x' && c[7]=='x') {
+		AIgameover = true;
+	}
 	else if (c[1]=='x' && c[4]=='x' && c[7]=='x') {
 		AIgameover = true;
 	}
@@ -167,6 +170,9 @@ void winning_condition() {
 		Playergameover = true;
 	}
 	else if (c[1]=='o' && c[5]=='o' && c[9]=='o') {
+		Playergameover = true;
+	}
+	else if (c[3]=='o' && c[5]=='o' && c[7]=='o') {
 		Playergameover = true;
 	}
 	else if (c[1]=='o' && c[4]=='o' && c[7]=='o') {
